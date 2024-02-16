@@ -13,8 +13,11 @@
   color: white;
 }
 
-.App-link {
-  color: #314044;
+a {
+  color: #0e3642;
+}
+a:visited {
+  color: #000;
 }
 .Weather .threeCircles {
   display: block;
