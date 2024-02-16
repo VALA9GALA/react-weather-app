@@ -1,25 +1,126 @@
-.App {
+body {
+  font-family: monospace;
+  background: #eeeeee;
+  background: -webkit-radial-gradient(
+    circle,
+    #eeeeee 0%,
+    #db51cf 100%,
+    #d7d7d7 50%
+  );
+  background: radial-gradient(circle, #eeeeee 0%, #db51cf 100%, #d7d7d7 50%);
+}
+.App-header h1 {
+  font-size: 44px;
+  letter-spacing: 3px;
+  padding: 15px;
+  color: #9d52d6;
+  text-shadow: 3px 2px darkslateblue;
+}
+.App-header h2{
+  text-align: right;
+  margin-right: 30px;
+  color: #9d52d6;
+  letter-spacing: 5px;
+}
+.weather-app-wrapper {
+  max-width: 540px;
+  margin: 0 auto;
+}
+.weather-app {
+  margin-top: 20px;
+  background: #eeeeee;
+  background: -webkit-radial-gradient(
+    circle,
+    #eeeeee 0%,
+    #db51cf 50%,
+    #d7d7d7 100%
+  );
+  background: radial-gradient(circle, #eeeeee 0%, #db51cf 50%, #d7d7d7 100%);
+  padding: 20px;
+  border: 1px solid rgb(98, 74, 186);
+  border-radius: 7px;
+  box-shadow: 2px 4px 6px 2px rgba(98, 74, 186, 0.5);
+}
+.coded-by {
+  opacity: 0.8;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: rgb(98, 74, 186);
+}
+.weather-app-wrapper .valagala {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 2px;
+  color: #752eaa;
+}
+
+.forecast {
+  color: rgb(98, 74, 186);
+  text-align: center;
+}
+.forecast-date {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: -3px;
+}
+.forecast-temp {
+  font-size: 12px;
+  margin-bottom: -5px;
+}
+.forecast-temp-max {
+  font-weight: 600;
+}
+.forecast-temp-min {
+  opacity: 0.8;
+  font-weight: 500;
+}
+.threeCircles {
   text-align: center;
 }
 
-.App-header {
-  background-color: #3f72d8;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 576px) {
+  .form-control,
+  .btn,
+  .sub-text li,
+  .weather-temperature .units,
+  .hum-wind li {
+    font-size: 14px;
+  }
+  .btn {
+    margin-left: -20px;
+  }
+  .location-btn {
+    margin-top: 5px;
+    padding: 3px 7px;
+  }
+  .fa-location-dot {
+    font-size: 24px;
+  }
+  #date {
+    font-size: 12px;
+  }
+  .city {
+    font-size: 24px;
+  }
+  .main-icon {
+    width: 80px;
+    margin-left: -10px;
+  }
+  .weather-temperature strong {
+    font-size: 55px;
+  }
+  .weather-temperature .units {
+    position: relative;
+    top: -18px;
+  }
+  .hum-wind {
+    margin-left: 10px;
+  }
 }
 
-a {
-  color: #0e3642;
-}
-a:visited {
-  color: #000;
-}
-.Weather .threeCircles {
+.App .threeCircles {
   display: block;
   margin: 0 auto;
 }
