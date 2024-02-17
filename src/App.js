@@ -27,7 +27,7 @@ function App() {
               Coded by
               <a
                 href="https://github.com/VALA9GALA/react-weather-app"
-                taget="_blank"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="valagala"
               >
