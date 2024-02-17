@@ -3,6 +3,7 @@ import CurrentWeather from "./CurrentWeather";
 import Search from "./Search";
 import Forecast from "./Forecast";
 import { ThreeCircles } from "react-loader-spinner";
+//THIS IS A NOTE TO SAY THAT MY OTHER DEPENDENCY IMPORTS WERE NOT WORKING SO I DELETED THEM AND LINKED BOOTSTRAP AND FONTAWESOME IN MY HTML HEAD-- I WILL WAIT TIL NEXT WEEK WHEN WE START BUILDING THE PROJECT TO REINSTALL THEM FROM NPM//
 
 import "./App.css";
 import "./Weather.css";
