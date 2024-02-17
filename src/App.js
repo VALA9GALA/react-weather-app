@@ -26,8 +26,9 @@ function App() {
             <small>
               Coded by
               <a
-                href="https://github.com/VALA9GALA/VanillaWeatherApp"
+                href="https://github.com/VALA9GALA/react-weather-app"
                 taget="_blank"
+                rel="noopener noreferrer"
                 className="valagala"
               >
                 VALAGALA
